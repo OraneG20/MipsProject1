@@ -3,7 +3,7 @@
 
 main:
 	
-	li $v0,11
+	li $v0, 11
     	
 	la $a0, 64 # @ (64)
         syscall
@@ -25,6 +25,14 @@ main:
         addi $a0, $a0, -1 # 3
         syscall
         syscall
+        
+        addi $a0, $a0, 6 # 9
+        syscall
+        
+        addi $a0, $a0, -1 # 8
+        syscall
+    
+        li $v0, 11
 
 	addi $a0, $a0, 71 # O
 	syscall
