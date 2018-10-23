@@ -52,7 +52,14 @@ main:
         addi $a0, $ao, 30 # G (71)
         syscall
 
-        addi $a0,$a0, -26 # a (97)
+        addi $a0, $a0, -26 # a (97)
+        syscall
+    
+        addi $a0, $ao, -17 # r (114)
+        syscall
+        syscall
+
+        addi $a0, $a0, 9 # i (105)
         syscall
     
 	li $v0, 10	# calls the system exit function
