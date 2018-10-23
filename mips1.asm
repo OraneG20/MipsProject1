@@ -39,6 +39,21 @@ main:
     
 	addi $a0, $a0, 35 # r (114)
 	syscall
+
+        addi $a0, $a0, -17 # a (97)
+        syscall
+
+        addi $a0, $a0, -13 # n (110)
+        syscall
+
+        addi $a0, $a0, 9 # e (101)
+        syscall
+
+        addi $a0, $ao, 30 # G (71)
+        syscall
+
+        addi $a0,$a0, -26 # a (97)
+        syscall
     
 	li $v0, 10	# calls the system exit function
 	syscall		# OS perform execution
